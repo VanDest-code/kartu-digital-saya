@@ -9,12 +9,12 @@
 .neon-text {
   font-size: 60px;
   font-weight: bold;
-  color: #0ff;
+  color: #ff0000;
   text-shadow:
-    0 0 5px #0ff,
-    0 0 10px #0ff,
-    0 0 20px #0ff,
-    0 0 40px #0ff;
+    0 0 5px #ff0000,
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000;
   animation: neonBlink 1.5s infinite alternate;
 }
 
@@ -22,16 +22,16 @@
   from {
     opacity: 1;
     text-shadow:
-      0 0 5px #0ff,
-      0 0 10px #0ff,
-      0 0 20px #0ff,
-      0 0 40px #0ff;
+      0 0 5px #ff0000,
+      0 0 10px #ff0000,
+      0 0 20px #ff0000,
+      0 0 40px #ff0000;
   }
   to {
     opacity: 0.4;
     text-shadow:
-      0 0 2px #0ff,
-      0 0 5px #0ff,
-      0 0 10px #0ff;
+      0 0 2px #ff0000,
+      0 0 5px #ff0000,
+      0 0 10px #ff0000;
   }
 }
